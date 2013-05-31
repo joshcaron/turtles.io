@@ -1,9 +1,27 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+	function closePopup() {
+	  $("#popup").hide();
+	  $("#sidebar, #main").removeClass("faded");
+
+	}
+	</script>
 </head>
 <body>
-	<div id="sidebar">
+	<div id="popup">
+		<h1 class="title">Hey there!</h1>
+		<p>My website is currently under construction. I'm glad you like turtles! Feel free to email me at <span class="email">josh@hacks.io</span>
+			or at <span class="email">josh@turtles.io</span> if you have any questions.</p>
+		<p id="close"><a href="#" onclick="closePopup()">Click here to close this message.</a></p>
+		<p style="text-align:center">Last updated: <span class="date">5/31/2013</span></p>
+	</div>
+
+
+	<div id="sidebar" class="faded">
 		<img width="300px" height="300px" />
 		<nav>
 			<a href=""><li>Blog</li></a>
@@ -11,7 +29,7 @@
 			<a href=""><li>Stuff</li></a>
 		</nav>
 	</div>
-	<div id="main">
+	<div id="main" class="faded">
 		<header>
 			<h1>turtles.io</h1>
 		</header>

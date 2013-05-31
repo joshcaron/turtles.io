@@ -54,3 +54,48 @@ nav a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.faded {
+	opacity: 0.33;
+}
+
+#popup {
+	background-color: #FFFFFF;
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	z-index: 2;
+	left: 50%;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: -250px;
+	border: solid 1px black;
+	border-radius: 10px;
+}
+
+h1.title {
+	text-align: center;
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 700;
+}
+
+#popup p {
+	font-family: 'Open Sans', 'Helvetica', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+}
+.date {
+	font-family: 'Courier', serif;
+}
+.email {
+	font-family: 'Courier', serif;
+	color: #0B5FA5;
+}
+
+p#close {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
