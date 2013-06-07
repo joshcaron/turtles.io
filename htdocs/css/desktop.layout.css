@@ -24,12 +24,21 @@ body {
 	width: 100%;
 }
 
+#main nav ul {
+	list-style-type: none;
+	padding: 0px;
+}
+
 #main nav li {
 	display: inline-block;
 	text-align: center;
 	width: 20%;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+#main nav select {
+	display: none;
 }
 
 #main section {
