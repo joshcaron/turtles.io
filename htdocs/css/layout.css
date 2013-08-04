@@ -18,7 +18,6 @@
 }
 
 .title {
-	background-color: #EEE;
 	font-size: 1.3em;
 }
 
@@ -27,7 +26,6 @@
 }
 
 .main {
-	background-color: #DDD;
 	width: 100%;
 	margin-bottom: 60px;
 }
@@ -35,21 +33,13 @@
 .main nav li {
 	width: 20%;
 	display: inline-block;
-	background-color: #CCC;
-	text-align: center;
 	height: 50px;
 	line-height: 50px;
 	font-size: 1.1em;
 }
 
-.main nav li:hover {
-	background-color: #FCFCFC;
-	cursor: pointer;
-}
-
 .feed {
 	width: 30%;
-	background-color: #BBB;
 	height: 720px;
 	float: left;
 }
@@ -64,8 +54,6 @@
 	width: 70%;
 	height: 340px;
 }
-
-
 
 .blog {
 	display: inline-block;

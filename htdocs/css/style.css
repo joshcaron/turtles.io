@@ -20,11 +20,32 @@
 	background-color: white;
 }
 
+.title {
+	background-color: #EEE;
+}
 
-.project.featured {
-	background-color: red;
+.main {
+	background-color: #DDD;
+}
+
+.main nav li {
+	background-color: #CCC;
+	text-align: center;
+}
+
+.main nav li:hover {
+	background-color: #FCFCFC;
+	cursor: pointer;
+}
+
+.feed {
+	background-color: #BBB;
 }
 
 .project {
 	background-color: green;
+}
+
+.project.featured {
+	background-color: red;
 }
