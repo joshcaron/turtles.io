@@ -10,16 +10,7 @@
 			margin: auto;
 		}
 		.import {
-			width: 500px;
-			float: left;
-			margin: auto;
-			background-color: #5c832f;
-			padding-top: 10px;
-			padding-left: 10px;
-			padding-right: 10px;
-			padding-bottom: 50px;
-			margin-right: 10px;
-			margin-bottom: 10px;
+			height: 130px;
 
 		}
 	</style>
@@ -28,36 +19,20 @@
 <body>
 	<div id="shell">
 		<?php
+		include 'tumblr/vendor/autoload.php';
 
-		include 'vendor/autoload.php';
-		$consumerKey = 'wKv7sb50y5W4XLuX1GIAKp01IyQjwggDve8VB9Nj0xT2Udc8km';
-		$consumerSecret = 'pQMnjEszHA5lfRCccdQV896cptkRIS6anoI2NO0jVDEPrJL6Ji';
+		// Authenticate via API Key
+		$apiKey = 'wKv7sb50y5W4XLuX1GIAKp01IyQjwggDve8VB9Nj0xT2Udc8km';
+		$client = new Tumblr\API\Client($apiKey);
 
-		/* gets the data from a URL */
-		function get_data($url) {
-			// Get cURL resource
-			$curl = curl_init();
-			// Set some options - we are passing in a useragent too here
-			curl_setopt_array($curl, array(
-			    CURLOPT_RETURNTRANSFER => 1,
-			    CURLOPT_URL => $url
-			));
-			// Send the request & save response to $resp
-			$resp = curl_exec($curl);
-			// Close request to clear up some resources
-			curl_close($curl);
-			return $resp;
+		// Make the request
+		$options = array('type' => 'photo', 'tag' => 'turtles.io', 'limit' => 100);
+		$response = $client->getBlogPosts('testudoj.tumblr.com', $options);
+		echo "<pre>";
+		foreach ($response->posts as $post) {
+			$url = $post->photos[0]->original_size->url;
+			echo "<img class='import' src=$url />";
 		}
-
-		$json = json_decode(get_data('http://api.tumblr.com/v2/blog/testudoj.tumblr.com/posts/photo?api_key=wKv7sb50y5W4XLuX1GIAKp01IyQjwggDve8VB9Nj0xT2Udc8km&tag=turtles.io'));
-
-		$photos = $json->response->posts;
-		foreach ($photos as $photo) {
-			$sizes = $photo->photos;
-			$img_url = $sizes[0]->alt_sizes[1]->url;
-			echo "<img class='import' src='" . $img_url . "' />";
-		}
-
 		?>
 	</div>
 </body>
