@@ -1,0 +1,74 @@
+/*.tumblrImage img {
+	height: 150px;
+	display: inline-block;
+}
+.wheel {
+	width: 80%;
+	height: 150px;
+	margin: auto;
+	overflow: hidden;
+}
+*/
+
+.shell {
+	margin-top: 100px;
+	width: 84%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	background-color: #EEE;
+	font-size: 1.3em;
+}
+
+.title .name {
+	margin-bottom: 0;	
+}
+
+.main {
+	background-color: #DDD;
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.main nav li {
+	width: 20%;
+	display: inline-block;
+	background-color: #CCC;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.1em;
+}
+
+.main nav li:hover {
+	background-color: #FCFCFC;
+	cursor: pointer;
+}
+
+.feed {
+	width: 30%;
+	background-color: #BBB;
+	height: 720px;
+	float: left;
+}
+
+.project {
+	display: inline-block;
+	width: 35%;
+	height: 300px;
+}
+
+.project.featured {
+	width: 70%;
+	height: 340px;
+}
+
+
+
+.blog {
+	display: inline-block;
+	width: 70%;	
+	height: 80px;
+}

@@ -1,39 +1,25 @@
 <html>
 <head>
-	<style type="text/css">
-		body {
-			background-color: #d8cda8;
-		}
-
-		#shell {
-			width: 80%;
-			margin: auto;
-		}
-		.import {
-			height: 130px;
-
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'>
 </head>
 
 <body>
-	<div id="shell">
-		<?php
-		include 'tumblr.php/vendor/autoload.php';
-
-		// Authenticate via API Key
-		$apiKey = 'wKv7sb50y5W4XLuX1GIAKp01IyQjwggDve8VB9Nj0xT2Udc8km';
-		$client = new Tumblr\API\Client($apiKey);
-
-		// Make the request
-		$options = array('type' => 'photo', 'tag' => 'turtles.io', 'limit' => 100);
-		$response = $client->getBlogPosts('testudoj.tumblr.com', $options);
-		echo "<pre>";
-		foreach ($response->posts as $post) {
-			$url = $post->photos[0]->original_size->url;
-			echo "<img class='import' src=$url />";
-		}
-		?>
+	<div class="shell">
+		<!-- <div class="wheel">
+			<?php include_once('includes/turtles.php'); ?>
+		</div> -->
+		<div class="title">
+			<pre class="name">turtles.io</pre>
+		</div>
+		<div class="main">
+			<nav>
+				<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>
+			</nav>
+			<div class="feed">List of RSS feeds</div><div class="project featured">Project 1</div><div class="project">Project 2</div><div class="project">Project 3</div><div class="blog">Tech Blog</div>
+		</div>
 	</div>
 </body>
 </html>
