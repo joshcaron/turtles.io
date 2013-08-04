@@ -19,7 +19,7 @@
 <body>
 	<div id="shell">
 		<?php
-		include 'tumblr/vendor/autoload.php';
+		include 'tumblr.php/vendor/autoload.php';
 
 		// Authenticate via API Key
 		$apiKey = 'wKv7sb50y5W4XLuX1GIAKp01IyQjwggDve8VB9Nj0xT2Udc8km';
