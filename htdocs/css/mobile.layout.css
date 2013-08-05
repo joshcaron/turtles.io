@@ -51,54 +51,31 @@ p {
 /* Project */
 /* -------------------------------- */
 .project {
-	display: inline-block;
-	width: 50%;
-	vertical-align: top;
-}
-
-.project .title {
-	text-align: center;
-}
-
-.project .description {
-	padding: 10px 16px;
-	vertical-align: top;	
-	text-align: justify;
-}
-
-.project .description p:first-of-type {
-	margin-top: 0;
-}
-
-.project .description p {
 	display: none;
 }
 
-.project .image {
-	width: 120px;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
 
-.project .image img {
-	width: 120px;
-	height: 120px;
-}
 
 /* -------------------------------- */
 /* Featured Project */
 /* -------------------------------- */
 .project.featured {
 	width: 100%;	
+	display: block;
 }
 
 .project.featured .title {
 	text-align: center;
 }
 
-.project.featured .description p {
-	display: block;
+.project.featured .description {
+	padding: 10px 16px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.project.featured .description p:first-of-type {
+	margin-top: 0;
 }
 
 .project.featured .image.featured {
