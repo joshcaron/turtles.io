@@ -8,9 +8,6 @@
 
 <body>
 	<div class="shell">
-		<!-- <div class="wheel">
-			<?php include_once('includes/turtles.php'); ?>
-		</div> -->
 		<div class="title">
 			<pre class="name">turtles.io</pre>
 		</div>
@@ -18,7 +15,45 @@
 			<nav>
 				<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>
 			</nav>
-			<div class="feed">List of RSS feeds</div><div class="project featured">Project 1</div><div class="project">Project 2</div><div class="project">Project 3</div><div class="blog">Tech Blog</div>
+			<div class="feed">Latest Blog Posts</div>
+			<div class="featured project">
+				<div class="description">
+					<h2 class="title">Title of Project</h2>
+					<div class="featured image">
+						<img alt="project image" />
+					</div>
+				</div>
+			</div>
+			<div class="project">
+				<div class="description">
+					<h3 class="title">Title of Project</h3>
+					<div class="image">
+						<img alt="project image" />
+					</div>
+					<p>This is some filler text. This would dexcribe a
+					project that I'm doing. It seems really awesome and fun.
+					</p>
+					<p>Here is another paragraph. Yay fun stuff.</p>
+					<p>Be careful that there isn't too much text before it would 
+					overflow off the end...
+					</p>
+				</div>
+			</div><div class="project">
+				<div class="description">
+					<h3 class="title">Title of Project</h3>
+					<div class="image">
+						<img alt="project image" />
+					</div>
+					<p>This is some filler text. This would dexcribe a
+					project that I'm doing. It seems really awesome and fun.
+					</p>
+					<p>Here is another paragraph. Yay fun stuff.</p>
+					<p>Be careful that there isn't too much text before it would 
+					overflow off the end...
+					</p>
+				</div>
+			</div>
+			<div class="links">Links</div>
 		</div>
 	</div>
 </body>
