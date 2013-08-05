@@ -2,7 +2,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'>
+	<!-- <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:400,700'> -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<link 
@@ -24,12 +24,23 @@
 			<nav>
 				<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>
 			</nav>
-			<div class="feed">Latest Blog Posts</div>
+			<div class="feed">
+				<ol>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+					<li class="post"></li>
+				</ol>
+			</div>
 			<div class="featured project">
 				<div class="description">
 					<h2 class="title">Title of Project</h2>
 					<div class="featured image">
-						<img alt="project image" />
+						<img alt="project image" src="img/project1.png" />
 					</div>
 					<p>This is some filler text. This would dexcribe a
 					project that I'm doing. It seems really awesome and fun.
@@ -51,7 +62,7 @@
 				<div class="description">
 					<h3 class="title">Title of Project</h3>
 					<div class="image">
-						<img alt="project image" />
+						<img alt="project image" src="img/project2.jpg" />
 					</div>
 					<p>This is some filler text. This would dexcribe a
 					project that I'm doing. It seems really awesome and fun.
@@ -65,7 +76,7 @@
 				<div class="description">
 					<h3 class="title">Title of Project</h3>
 					<div class="image">
-						<img alt="project image" />
+						<img alt="project image" src="img/project3.jpg" />
 					</div>
 					<p>This is some filler text. This would dexcribe a
 					project that I'm doing. It seems really awesome and fun.

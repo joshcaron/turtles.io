@@ -1,15 +1,6 @@
-/*.tumblrImage img {
-	height: 150px;
-	display: inline-block;
-}
-.wheel {
-	width: 80%;
-	height: 150px;
-	margin: auto;
-	overflow: hidden;
-}
-*/
-
+/* -------------------------------- */
+/* Global Styles */
+/* -------------------------------- */
 h2 {
 	margin: 0;
 	padding: 0;
@@ -23,7 +14,9 @@ h3 {
 p {
 	line-height: 22px;
 }
-
+/* -------------------------------- */
+/* Shell/Container */
+/* -------------------------------- */
 .shell {
 	margin-top: 100px;
 	width: 100%;
@@ -47,56 +40,69 @@ p {
 	font-size: 1.1em;
 }
 
-.feed {
-	width: 30%;
-	height: 760px;
-	float: left;
-}
+/* -------------------------------- */
+/* Feed */
+/* -------------------------------- */
 
+.feed {
+	display: none;
+}
+/* -------------------------------- */
+/* Project */
+/* -------------------------------- */
 .project {
 	display: inline-block;
-	width: 35%;
+	width: 50%;
 	vertical-align: top;
-	min-height: 300px;
 }
 
-.project.featured {
-	width: 70%;	
-	min-height: 380px;
+.project .title {
+	text-align: center;
 }
 
-.links {
-	display: inline-block;
-	width: 70%;	
-	height: 80px;
+.project .description {
+	padding: 10px 16px;
+	vertical-align: top;	
+	text-align: justify;
 }
-
-.project.featured .image.featured {
-	width: 225px;
-	height: 225px;
-	float: left;
-	margin-right: 16px;
-	margin-bottom: 16px;}
-
-.project .image {
-	width: 130px;
-	height: 130px;
-	float: right;
-	margin-left: 16px;
-	margin-bottom: 16px;
-}
-
 
 .project .description p:first-of-type {
 	margin-top: 0;
 }
 
-.project .description {
-	padding: 22px;
-	vertical-align: top;	
+.project .image {
+	display: none;
 }
 
-.project .title {
+
+/* -------------------------------- */
+/* Featured Project */
+/* -------------------------------- */
+.project.featured {
+	width: 100%;	
+}
+
+.project.featured .title {
+	text-align: center;
+}
+
+
+.project.featured .image.featured {
+	width: 300px;
+	display: block;
+	float: left;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-right: 25px;
+}
+.project.featured .image.featured img {
+	width: 300px;
+	height: 300px;
+}
+
+/* Links */
+.links {
 	display: inline-block;
-	margin-bottom: 8px;
+	width: 70%;	
+	height: 80px;
 }
