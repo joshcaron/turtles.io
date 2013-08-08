@@ -4,11 +4,19 @@
 h2 {
 	margin: 0;
 	padding: 0;
+	font-size: 2.5em;
 }
 
 h3 {
 	margin: 0;
 	padding: 0;
+	font-size: 1.8em;
+}
+
+h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
 }
 
 p {
@@ -17,17 +25,15 @@ p {
 
 body {
 	background-image: url('../img/bench.jpg');
-	background-size: 100% 100%;
+	background-size: 2000px;
 }
 
 /* -------------------------------- */
 /* Shell/Container */
 /* -------------------------------- */
 .shell {
-	margin-top: 100px;
-	width: 84%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 1000px;
+	margin: 100px auto;
 }
 
 
@@ -40,7 +46,7 @@ body {
 	margin-bottom: 60px;
 }
 
-.main nav li {
+.navigation li {
 	width: 20%;
 	display: inline-block;
 	height: 70px;
@@ -58,14 +64,59 @@ body {
 	float: left;
 }
 
+.feed .updates {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: rgba(187, 187, 187, 0.8);
+}
+
+.feed ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.post {
+	width: 100%;
+	margin-bottom: 3px;
+	background-color: #BBB;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(187, 187, 187, 0.8);
+}
+
+.post .logo {
+	width: 40px;
+	height: 40px;
+	background-color: blue;
+	display: inline-block;
+	float: left;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.post p {
+	white-space: nowrap;
+	margin: 0;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding-right: 10px;
+}
+
 /* -------------------------------- */
 /* Project */
 /* -------------------------------- */
 .project {
 	display: inline-block;
-	width: 35%;
+	width: 349px;
 	vertical-align: top;
-	height: 300px;
+	height: 350px;
+	overflow: scroll;
+}
+
+.project.featured + .project {
+	border-right: solid 2px black;
 }
 
 .project .title {
@@ -93,6 +144,10 @@ body {
 	margin-top: 0;
 }
 
+.project .description p:last-of-type {
+	margin-bottom: 0;
+}
+
 /* -------------------------------- */
 /* Featured Project */
 /* -------------------------------- */
@@ -100,6 +155,8 @@ body {
 	width: 70%;
 	min-height: 380px;
 	height: auto;
+	border-bottom: solid 2px black;
+	border-right: none;
 }
 
 .project.featured .image.featured {
@@ -107,6 +164,7 @@ body {
 	float: left;
 	margin-right: 16px;
 	margin-bottom: 16px;
+	margin-left: 0;
 }
 
 .project.featured .image.featured img {
@@ -119,6 +177,9 @@ body {
 
 .links {
 	display: inline-block;
-	width: 70%;
-	height: 80px;
+	width: 100%;
+	height: 120px;
+	background-color: red;
 }
+
+

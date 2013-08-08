@@ -21,19 +21,52 @@
 			<pre class="name">turtles.io</pre>
 		</div>
 		<div class="main">
-			<nav>
+			<nav class="navigation">
 				<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>
 			</nav>
 			<div class="feed">
+				<h3 class="updates">Latest Updates</h3>
 				<ol>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
-					<li class="post"></li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
+					<li class="post">
+						<div class="logo"></div>
+						<h4>Feed Title</h4>
+						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
+					</li>
 				</ol>
 			</div>
 			<div class="featured project">
@@ -87,8 +120,8 @@
 					</p>
 				</div>
 			</div>
-			<div class="links">Links</div>
 		</div>
 	</div>
+	<div class="links">Links</div>
 </body>
 </html>
