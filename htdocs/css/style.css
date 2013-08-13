@@ -1,49 +1,24 @@
-/**
- * Adobe Kuler Colors
- * #D8CAA8 - Tan
- * #5C832F - Light Green
- * #284907 - Dark Green
- * #382513 - Brown
- * #363942 - Dark Gray
- */
-
-/** 
- * Adobue Kuler Colors v2
- * #BDDFB3 
- * #009D57
- * #2C372E
- * #0F2925
- * #465F3F
- */
-
 body {
-	background-color: white;
+	background-color: #203117;
 }
 
-.title {
-	background-color: #EEE;
+a {
+	color: #EFEFEF;
 }
 
-.main nav li {
-	background-color: #CCC;
+.shell {
+	color: #EFEFEF;
+	text-shadow: 1px 1px 2px #999;
+}
+
+.title .name {
 	text-align: center;
 }
 
-.main nav li:hover {
-	background-color: #FCFCFC;
-	cursor: pointer;
+.signature {
+	text-align: right;
 }
 
-
-.project {
-	background-color: white;
-}
-
-
-.project .title {
-	background-color: transparent;	
-}
-
-.image {
-	background-color: white;
+.main {
+	font-family: 'Open Sans', sans-serif;
 }

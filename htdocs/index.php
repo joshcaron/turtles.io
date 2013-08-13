@@ -21,107 +21,12 @@
 			<pre class="name">turtles.io</pre>
 		</div>
 		<div class="main">
-			<nav class="navigation">
-				<li>Item 1</li><li>Item 2</li><li>Item 3</li><li>Item 4</li><li>Item 5</li>
-			</nav>
-			<div class="feed">
-				<h3 class="updates">Latest Updates</h3>
-				<ol>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-					<li class="post">
-						<div class="logo"></div>
-						<h4>Feed Title</h4>
-						<p>Feed snippet that should only be one line long and then turn into an ellipsis</p>
-					</li>
-				</ol>
-			</div>
-			<div class="featured project">
-				<div class="description">
-					<h2 class="title">Title of Project</h2>
-					<div class="featured image">
-						<img alt="project image" src="img/project1.png" />
-					</div>
-					<p>This is some filler text. This would dexcribe a
-					project that I'm doing. It seems really awesome and fun.
-					</p>
-					<p>Here is another paragraph. Yay fun stuff.</p>
-					<p>Be careful that there isn't too much text before it would 
-					overflow off the end...
-					</p>
-					<p>This is some filler text. This would dexcribe a
-					project that I'm doing. It seems really awesome and fun.
-					</p>
-					<p>Here is another paragraph. Yay fun stuff.</p>
-					<p>Be careful that there isn't too much text before it would 
-					overflow off the end...
-					</p>
-				</div>
-			</div>
-			<div class="project">
-				<div class="description">
-					<h3 class="title">Title of Project</h3>
-					<div class="image">
-						<img alt="project image" src="img/project2.jpg" />
-					</div>
-					<p>This is some filler text. This would dexcribe a
-					project that I'm doing. It seems really awesome and fun.
-					</p>
-					<p>Here is another paragraph. Yay fun stuff.</p>
-					<p>Be careful that there isn't too much text before it would 
-					overflow off the end...
-					</p>
-				</div>
-			</div><div class="project">
-				<div class="description">
-					<h3 class="title">Title of Project</h3>
-					<div class="image">
-						<img alt="project image" src="img/project3.jpg" />
-					</div>
-					<p>This is some filler text. This would dexcribe a
-					project that I'm doing. It seems really awesome and fun.
-					</p>
-					<p>Here is another paragraph. Yay fun stuff.</p>
-					<p>Be careful that there isn't too much text before it would 
-					overflow off the end...
-					</p>
-				</div>
-			</div>
+			<p>Hey there!</p>
+			<p>I'm currently working hard to make this site awesome. So for now
+				it's under construction. Sorry for that! For now take a look at
+				<a href="http://joshcaron.com">joshcaron.com</a>.</p>
+			<p class="signature"><a href="mailto:josh@turtles.io">Josh</a></p>
 		</div>
 	</div>
-	<div class="links">Links</div>
 </body>
 </html>

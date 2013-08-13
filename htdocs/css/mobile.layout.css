@@ -1,95 +1,13 @@
-/* -------------------------------- */
-/* Global Styles */
-/* -------------------------------- */
-h2 {
-	margin: 0;
-	padding: 0;
-}
-
-h3 {
-	margin: 0;
-	padding: 0;
-}
-
-p {
-	line-height: 22px;
-}
-/* -------------------------------- */
-/* Shell/Container */
-/* -------------------------------- */
 .shell {
-	margin-top: 100px;
-	width: 100%;
+	margin: auto;
 }
-
 
 .title .name {
-	margin-bottom: 0;	
+	font-size: 3em;
+	margin: 0;
 }
 
 .main {
-	width: 100%;
-	margin-bottom: 60px;
-}
-
-.main nav li {
-	width: 20%;
-	display: inline-block;
-	height: 50px;
-	line-height: 50px;
-	font-size: 1.1em;
-}
-
-/* -------------------------------- */
-/* Feed */
-/* -------------------------------- */
-
-.feed {
-	display: none;
-}
-/* -------------------------------- */
-/* Project */
-/* -------------------------------- */
-.project {
-	display: none;
-}
-
-/* -------------------------------- */
-/* Featured Project */
-/* -------------------------------- */
-.project.featured {
-	width: 100%;	
-	display: block;
-}
-
-.project.featured .title {
-	text-align: center;
-}
-
-.project.featured .description {
-	padding: 10px 16px;
-	vertical-align: top;
-	text-align: justify;
-}
-
-.project.featured .description p:first-of-type {
-	margin-top: 0;
-}
-
-.project.featured .image.featured {
-	width: 225px;
-	margin: auto;
-	margin-top: 16px;
-	margin-bottom: 16px;
-}
-.project.featured .image.featured img {
-	width: 225px;
-	height: 225px;
-}
-
-/* Links */
-.links {
-	display: inline-block;
-	width: 70%;	
-	height: 80px;
+	padding: 15px;
+	font-size: 1.2em;
 }
