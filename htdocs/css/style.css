@@ -8,10 +8,10 @@ a {
 
 .shell {
 	color: #EFEFEF;
-	text-shadow: 1px 1px 2px #999;
 }
 
 .title .name {
+	text-shadow: 1px 1px 2px #999;
 	text-align: center;
 }
 
